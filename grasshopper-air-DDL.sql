@@ -41,7 +41,7 @@ create table if not exists ACModel (
 drop table if exists Aircraft;
 create table if not exists Aircraft (
   ACID integer primary key autoincrement,
-  ACModelID integer,
+  ACModelID integer foreign key references ACModel,
   RegNum char(8) unique
 );
 
