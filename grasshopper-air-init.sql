@@ -80,6 +80,9 @@ insert into Airport(AirportCode, AirportName, AirportAddress, Latitude, Longitud
   ('CHS', 'Charleston Air Force Base/International Airport', 
   'Joint Base Charleston, Charleston AFB, SC 29404', 
   32.89863889, -80.04052778, 46);
+insert into Airport(AirportCode, AirportName, AirportAddress, Latitude, Longitude, elevation) values
+  ('MYR', 'Myrtle Beach International Airport', '1100 Jetport Rd., Myrtle Beach, SC 29577',
+  33.6797411, -78.9283214, 25);
 
 ---- ACModel
 insert into ACModel(Manufacturer, ModelName, Seats, FuelCapy, MTOW) values
